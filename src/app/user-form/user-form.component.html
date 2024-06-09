@@ -1,0 +1,20 @@
+<div class="container mt-5">
+    <h2 *ngIf="userId">Edit User</h2>
+    <h2 *ngIf="!userId">Add User</h2>
+    <form [formGroup]="userForm" (ngSubmit)="onSubmit()">
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input id="name" formControlName="name" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label for="username">Username</label>
+            <input id="username" formControlName="username" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input id="email" formControlName="email" class="form-control" />
+        </div>
+        <!-- Add address fields similarly -->
+        <button type="submit" class="btn btn-success mt-5">Submit</button>
+    </form>
+</div>

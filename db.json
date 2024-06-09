@@ -1,0 +1,39 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "users": [
+    {
+      "name": "sandy",
+      "username": "sdf",
+      "email": "sandy@gmail.com",
+      "id": 1
+    },
+    {
+      "name": "shashi",
+      "username": "sad",
+      "email": "vaibhavkarale117@gmail.com",
+      "id": 2
+    },
+    {
+      "name": "suyog",
+      "username": "sandip vethekar",
+      "email": "vethekarsandip23@gmail.com",
+      "id": 3
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
